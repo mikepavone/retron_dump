@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ $# -gt 1 ]; then
+adb shell dumpgen -f $1 /mnt/ram/$2 && adb pull /mnt/ram/$2 && adb shell rm /mnt/ram/$2
+else
+adb shell dumpgen /mnt/ram/$1 && adb pull /mnt/ram/$1 && adb shell rm /mnt/ram/$1
+fi
