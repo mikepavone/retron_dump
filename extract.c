@@ -1,3 +1,8 @@
+/*
+ Copyright 2018 Michael Pavone
+ This file is part of retron_dump.
+ retron_dump is free software distributed under the terms of the GNU General Public License version 3 or greater. See LICENSE for full license text.
+*/
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
